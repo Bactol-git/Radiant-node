@@ -33,11 +33,15 @@ You can run this to see what containers are currently running:
 sudo docker ps
 ```
 
+![](https://raw.githubusercontent.com/Bactol-git/Radiant-node/img/ps.png)
+
 and you can run this to see all containers that has been ran:
 
 ```
 sudo docker ps -a
 ```
+
+![](https://raw.githubusercontent.com/Bactol-git/Radiant-node/img/ps-a.png)
 
 Acces the container to inspect and troubleshoot:
 We can access the terminal of the running container to inspect and troubleshoot it using this command:
@@ -54,6 +58,8 @@ radiant-cli -getinfo
 
 to see that our node is running.
 You can see other useful commands to run on the node in the radiant node guide (https://radiant4people.com/guides/node/compile/#useful-commands).
+
+![](https://raw.githubusercontent.com/Bactol-git/Radiant-node/img/radiant-cli.png)
 
 To go back out of the container simply use run``` exit ``` inside the container.
 
