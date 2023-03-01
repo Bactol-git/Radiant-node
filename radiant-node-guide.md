@@ -79,7 +79,7 @@ When its time to stop the container we simply run:
 sudo docker stop radiantnode
 ```
 
-"radiantnode" is the name we specified when we started the first container. to stop the second container we started:
+"radiantnode" is the name we specified when we started the first container. To stop the second container we started:
 
 ```
 sudo docker stop radiantnode2
