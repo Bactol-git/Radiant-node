@@ -55,7 +55,7 @@ radiant-cli -getinfo
 to see that our node is running.
 You can see other useful commands to run on the node in the radiant node guide (https://radiant4people.com/guides/node/compile/#useful-commands).
 
-To go back out of the container simply use ``` exit ```
+To go back out of the container simply use run``` exit ``` inside the container.
 
 We now have a functional radiant node up and running, but why stop there? 
 We can easilly run multiple nodes at once. Just start another node using the same image (but different name). 
