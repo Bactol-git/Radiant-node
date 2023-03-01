@@ -1,17 +1,17 @@
 # Run a Docker Radiant Node
 
-##Installing Docker:
+## Installing Docker:
 The process for installing docker engine depends on your operating system. 
 Refer to https://docs.docker.com/engine/install/ and look up instructions for your OS.
 
-##Pulling Docker image:
+## Pulling Docker image:
 You can browse https://hub.docker.com/ for images that you might find use for. Here we will be using the image found here: 
 https://hub.docker.com/r/radiantcommunity/radiant-node.
 Under Docker commands you can see a command to fetch the image so that you store it locally. 
 If you know what image you want there is no need to do this manually. 
 When we run the image and Docker can't find it locally it will search Docker Hub for it.
 
-##Running the container:
+## Running the container:
 The command for running the image we use here is:
 
 ```
@@ -26,7 +26,7 @@ The name tag is optional, but makes it easier when we specify it when we want to
 
 When you run the command you should see a hash, and that means the container started.
 
-##Inspecting the container:
+## Inspecting the container:
 You can run this to see what containers are currently running:
 
 ```
@@ -72,7 +72,7 @@ sudo docker ps
 
 to see that we have two nodes running.
 
-##Stopping container:
+## Stopping container:
 When its time to stop the container we simply run: 
 
 ```
@@ -84,4 +84,3 @@ sudo docker stop radiantnode
 ```
 sudo docker stop radiantnode2
 ```
-
