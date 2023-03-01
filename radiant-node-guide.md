@@ -33,7 +33,7 @@ You can run this to see what containers are currently running:
 sudo docker ps
 ```
 
-![](https://raw.githubusercontent.com/Bactol-git/Radiant-node/img/ps.png](https://github.com/Bactol-git/Radiant-node/blob/main/img/ps.png)
+![](https://github.com/Bactol-git/Radiant-node/blob/main/img/ps.png)
 
 and you can run this to see all containers that has been ran:
 
