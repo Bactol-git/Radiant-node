@@ -6,7 +6,9 @@ Refer to https://docs.docker.com/engine/install/ and look up instructions for yo
 
 ## Pulling Docker image:
 You can browse https://hub.docker.com/ for images that you might find use for. At the time of writing there are two options for running a Radiant node: just the node and the node with electrum.
+
 The image for just the node: https://hub.docker.com/r/radiantcommunity/radiant-node.
+
 The image for the node + electrum: https://hub.docker.com/r/radiantcommunity/electrumx_radiant_node.
 
 If you want to run the electrum version there is no need to also run the pure node container.
