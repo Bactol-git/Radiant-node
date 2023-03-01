@@ -18,6 +18,8 @@ The command for running the image we use here is:
 sudo docker run --name radiantnode -itd radiantcommunity/radiant-node
 ```
 
+![](https://github.com/Bactol-git/Radiant-node/blob/main/img/run.png)
+
 You might not need to sudo if you have given docker sudo rights. 
 The -itd tag is to run the container interactively, with tty (terminal) and detatched (background). 
 The last bit is the reference to the image you want to run.
