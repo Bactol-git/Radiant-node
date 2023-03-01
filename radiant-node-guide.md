@@ -46,8 +46,7 @@ We can access the terminal of the running container to inspect and troubleshoot 
 sudo docker exec -it radiantnode sh
 ```
 
-This will open up the terminal in the container and we can run commands to see that everything runs as expected. 
-For example we can run: 
+This will open up the terminal in the container and we can run commands to see that everything runs as expected. You will see a # symbol meaning we are in the terminal of the node. Now we can run: 
 
 ```
 radiant-cli -getinfo 
@@ -55,6 +54,8 @@ radiant-cli -getinfo
 
 to see that our node is running.
 You can see other useful commands to run on the node in the radiant node guide (https://radiant4people.com/guides/node/compile/#useful-commands).
+
+To go back out of the container simply use ``` exit ```
 
 We now have a functional radiant node up and running, but why stop there? 
 We can easilly run multiple nodes at once. Just start another node using the same image (but different name). 
