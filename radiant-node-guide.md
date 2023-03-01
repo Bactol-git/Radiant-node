@@ -24,7 +24,7 @@ The last bit is the reference to the image you want to run.
 
 The name tag is optional, but makes it easier when we specify it when we want to inspect the container and when we stop it.
 
-When you run the command you should see a hash, and that means the container started.
+If it is the first time you run the command and dont have the image locally you will see the download progress. This is only for when you fetch new images. The second time you run it it will be much faster as you already have the image. When you run the command you should see a hash, and that means the container started.
 
 ## Inspecting the container:
 You can run this to see what containers are currently running:
